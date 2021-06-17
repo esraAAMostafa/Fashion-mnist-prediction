@@ -2,7 +2,10 @@ name: FashionMINST
 channels:
   - defaults
 dependencies:
-  - python==3.7.0
+  - conda==3.10.1
+  - conda-env==2.1.4
+  - requests==2.6.0
+  - python
   - keras
   - pillow
   - h5py==2.10.0
