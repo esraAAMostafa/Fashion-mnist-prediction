@@ -1,6 +1,10 @@
 name: FashionMINST
 channels:
-  - defaults
+  - https://conda.example.com/repo
+  - nodefaults
+env:
+  CONDA_SSL_VERIFY: /etc/ssl/certs/ca-certificates.crt
+
 dependencies:
   - conda==3.10.1
   - conda-env==2.1.4
