@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 from predection import run_example
 
 UPLOAD_FOLDER = '/Users/esraa/Documents/pythonProject/Fash'
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 
 class Classify(Resource):
