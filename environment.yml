@@ -2,18 +2,18 @@ name: FashionMINST
 channels:
   - defaults
 dependencies:
-  - _tflow_select=2.3.0=mkl
-  - absl-py=0.12.0=py37hecd8cb5_0
+  - _tflow_select=2.3.0
+  - absl-py=0.12.0
   - aniso8601=9.0.1=pyhd3eb1b0_0
   - asn1crypto=1.4.0=py_0
-  - astor=0.8.1=py37hecd8cb5_0
+  - astor=0.8.1
   - beautifulsoup4=4.9.3=pyha847dfd_0
-  - blas=1.0=mkl
+  - blas=1.0
   - brotlipy=0.7.0=py37h9ed2024_1003
   - bs4=4.9.3=hd3eb1b0_0
   - c-ares=1.17.1=h9ed2024_0
   - ca-certificates=2021.5.25=hecd8cb5_1
-  - certifi=2021.5.30=py37hecd8cb5_0
+  - certifi=2021.5.30
   - cffi=1.14.0=py37hb5b8e2f_0
   - chardet=4.0.0=py37hecd8cb5_1003
   - click=8.0.1=pyhd3eb1b0_0
@@ -28,7 +28,7 @@ dependencies:
   - h5py=2.10.0=py37h0601b69_1
   - hdf5=1.10.6=hdbbcd12_0
   - idna=2.10=pyhd3eb1b0_0
-  - importlib-metadata=3.10.0=py37hecd8cb5_0
+  - importlib-metadata=3.10.0
   - intel-openmp=2021.2.0=hecd8cb5_564
   - itsdangerous=2.0.1=pyhd3eb1b0_0
   - jinja2=3.0.0=pyhd3eb1b0_0
@@ -47,7 +47,7 @@ dependencies:
   - libtiff=4.2.0=h87d7836_0
   - libwebp-base=1.2.0=h9ed2024_0
   - lz4-c=1.9.3=h23ab428_0
-  - markdown=3.3.4=py37hecd8cb5_0
+  - markdown=3.3.4
   - markupsafe=2.0.1=py37h9ed2024_0
   - mkl=2021.2.0=hecd8cb5_269
   - mkl-service=2.3.0=py37h9ed2024_1
@@ -61,11 +61,11 @@ dependencies:
   - opt_einsum=3.3.0=pyhd3eb1b0_1
   - pandas=1.2.4=py37h23ab428_0
   - pillow=8.2.0=py37h5270095_0
-  - pip=21.1.2=py37hecd8cb5_0
+  - pip=21.1.2
   - protobuf=3.14.0=py37h23ab428_1
   - pycparser=2.20=py_2
   - pyopenssl=19.0.0=py37_0
-  - pysocks=1.7.1=py37hecd8cb5_0
+  - pysocks=1.7.1
   - python=3.7.0=hc167b69_0
   - python-dateutil=2.8.1=pyhd3eb1b0_0
   - pytz=2021.1=pyhd3eb1b0_0
@@ -73,13 +73,13 @@ dependencies:
   - readline=7.0=h1de35cc_5
   - requests=2.25.1=pyhd3eb1b0_0
   - scipy=1.6.2=py37hd5f7400_1
-  - setuptools=52.0.0=py37hecd8cb5_0
+  - setuptools=52.0.0
   - six=1.16.0=pyhd3eb1b0_0
   - soupsieve=2.2.1=pyhd3eb1b0_0
   - sqlite=3.33.0=hffcf06c_0
   - tensorboard=1.15.0=pyhb230dea_0
-  - tensorflow=1.15.0=mkl_py37hb249377_0
-  - tensorflow-base=1.15.0=mkl_py37h032239d_0
+  - tensorflow=1.15.0_py37hb249377_0
+  - tensorflow-base=1.15.0_py37h032239d_0
   - tensorflow-estimator=1.15.1=pyh2649769_0
   - termcolor=1.1.0=py37hecd8cb5_1
   - tk=8.6.10=hb0a8c7a_0
